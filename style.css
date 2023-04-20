@@ -7,11 +7,12 @@ body{
     background-color: #c799a1;
 }
 
+/*----------------------------- Nav Bar ---------------------------- */
 .nav{
     width: 100%;
     display: flex;
     background-color: #d34f65;
-    position: fixed;
+    position:sticky;
 }
 
 .nav img{
@@ -42,4 +43,43 @@ body{
 .nav ul li a:hover{
     background-color: darkcyan;
     color: white;
+}
+
+/* ----------------------------------Header ------------------------- */
+
+
+.header{
+    position: relative;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.header .upper-cloud{
+      width: 150px;
+      position: absolute;
+      top: -120px;
+      right: 550px;
+}
+
+
+.header .lower-cloud{
+    width: 150px;
+    position: absolute;
+    left: 550px;
+    top: 120px;
+}
+
+.header .mountain{
+    margin-top: 150px;
+    width: 60%;
+
+}
+
+.header p {
+   font-size: 20px;
+}
+
+.header h1{
+    font-size: 55px;
+    color: #8ed6d6;
 }
