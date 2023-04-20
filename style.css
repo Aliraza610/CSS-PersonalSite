@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c799a1;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: #d34f65;
+    position: fixed;
+}
+
+.nav img{
+    width: 60px;
+    margin-left: 20px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+}
+
+.nav ul li{
+    padding: 20px ;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.nav ul li a:hover{
+    background-color: darkcyan;
+    color: white;
+}
