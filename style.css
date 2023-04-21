@@ -269,15 +269,78 @@ hr{
         padding: 0px;
     }
     .skill .item1 img{
-        margin-left: 20%;
+        margin-right: 43%;
         position: sticky;
     }
     .skill .item2 img{
-        margin-left: 20%;
+        margin-left: 44%;
         position: sticky;
     }
     .skill .item2{
         padding: 0px;
     }
     /* Skill End */
+}
+/* ----------------------------------Mobile Response --------------------------------- */
+@media (max-width: 550px) {
+    .nav ul li {
+        padding: 8px;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .header .upper-cloud{
+        width: 50px;
+    }
+    .header .lower-cloud{
+        width: 50px;
+    }
+
+    .container .info img{
+        width: 150px;
+    }
+
+    .container .info p{
+        font-size: 15px;
+    }
+    
+    .skill h1{
+        font-size: 30px;
+    }
+
+    .skill .item1 p{
+        font-size: 15px;
+    }
+    
+    .skill .item2 p{
+        font-size: 15px;
+    }
+    .skill .item1 img{
+        margin-right: 37%;
+    }
+
+    .contact h2{
+        font-size: 30px;
+    }
+
+    .contact p{
+        font-size: 15px;
+    }
+
+    .contact .btn{
+          font-size: 18px;
+          color: #d34f65;
+          border: 2px solid #d34f65;
+    }
+    
+    .contact .btn:hover{
+        background-color: #d34f65;
+        color: #8ed6d6;
+        border: 2px solid #8ed6d6;
+    }
+    
+    .footer span{
+        font-size: 18px;
+        padding: 4px;
+    }
 }
