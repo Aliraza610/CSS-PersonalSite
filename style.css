@@ -224,3 +224,60 @@ hr{
     font-weight: bold;
 }
 
+/* ---------------------------- Responsive ------------------- */
+@media (max-width: 1540px) {
+    /* header start */
+    .header{
+        margin-top: 70px;
+    }
+    .header .upper-cloud{
+        margin-left: 60%;
+        position: sticky;
+    }
+    .header .lower-cloud{
+        margin-right: 60%;
+        position: sticky;
+    }
+    /* header end */
+    /* Skill start */
+    .skill .item1{
+        padding: 0%;
+        margin-top: 100px;
+    }
+    .skill .item2{
+        padding: 0%;
+        margin-top: 100px;
+    }
+    .skill img{
+        position: sticky;
+        margin-right: 15%;
+        margin-top: -90px;
+    }
+    .skill .item1 img{
+        margin-left: 15%;
+    }
+    /* Skill end */
+}
+
+@media (max-width: 998px) {
+
+     /* Skill Start */
+    .skill{
+        display: block;
+    }
+    .skill .item1{
+        padding: 0px;
+    }
+    .skill .item1 img{
+        margin-left: 20%;
+        position: sticky;
+    }
+    .skill .item2 img{
+        margin-left: 20%;
+        position: sticky;
+    }
+    .skill .item2{
+        padding: 0px;
+    }
+    /* Skill End */
+}
