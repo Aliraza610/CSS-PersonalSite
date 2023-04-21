@@ -7,6 +7,11 @@ body{
     background-color: #c799a1;
 }
 
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /*----------------------------- Nav Bar ---------------------------- */
 .nav{
     width: 100%;
@@ -37,7 +42,7 @@ body{
 
 .nav ul li a{
     text-decoration: none;
-    color: darkcyan;
+    color: #8ed6d6;
 }
 
 .nav ul li a:hover{
@@ -83,3 +88,91 @@ body{
     font-size: 55px;
     color: #8ed6d6;
 }
+
+/* ------------------------- Container Which Contain All below sections -------------------------- */
+
+.container{
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+}
+
+/* ------------------------- Info -------------------------- */
+.container .info{
+    position: relative;
+}
+
+.container .info img{
+    width: 250px;
+    margin-top: 30px;
+}
+
+.container .info h1{
+    font-size: 40px;
+    color: #8ed6d6;
+}
+
+.container .info p{
+    font-size: 25px;
+}
+
+
+
+/* ------------------------- Skill -------------------------- */
+
+.skill{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.skill h1{
+    font-size: 40px;
+    color: #d34f65;
+    margin-bottom: 4px;
+}
+
+.skill .item1{
+    margin-top: 20px;
+    padding: 0 500px;
+}
+
+.skill .item1 img{
+    width: 100px;
+    position: absolute;
+    left: 450px;
+}
+
+.skill .item1 h1{
+    font-size: 30px;
+    color: black;
+}
+
+.skill .item1 p{
+   font-size: 20px;
+   padding: 2px 90px;
+}
+
+.skill .item2{
+    margin-top: 20px;
+    padding: 0 500px;
+}
+
+.skill .item2 img{
+    width: 100px;
+    position: absolute;
+    right: 450px;
+}
+
+.skill .item2 h1{
+    font-size: 30px;
+    color: black;
+}
+
+.skill .item2 p{
+    font-size: 20px;
+    padding: 2px 90px;
+}
+
+
+/*  */
